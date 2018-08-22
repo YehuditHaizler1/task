@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="matrix.css">
+    <script src="matrix.js"></script>
+</head>
+
+<body onload="loadTable()">
+    <h1>Matrix</h1>
+    <div id="playerStatus">
+        <div class="container"></div>
+        <button class="button col-md-6" onclick="diagonals(0)">upper part</button>
+        <button class="button col-md-6" onclick="diagonals(1)">down part</button>
+        <button class="button col-md-6" onclick="diagonals(2)">diagonals</button>
+        <button class="button col-md-6" onclick="diagonals(3)">border</button></div>
+    </div>
+    <br>
+    <table id="table">
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+    <br>
+</body>
+
+
+</html>
