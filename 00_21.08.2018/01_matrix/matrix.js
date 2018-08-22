@@ -28,7 +28,7 @@ function resetBgc() {
         }
     }
 }
-function diagonals(id) {
+function setMat(id) {
 
     for (var i = 0; i < table.children[0].children.length; i++) {
         for (var j = 0; j < table.children[0].children.length; j++) {
